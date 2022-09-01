@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@500&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+    color: $colorBlanco;
+}
+
+/*Estilos Generales aplicables a todas las páginas*/
+
+body{
+    background-color: $colorPrinc;
+
+    .estiloHeader{
+        background-color: $colorPrinc;
+        animation: slideinLeft 3s;
+    }
+    
+    .styleLinks{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: $colorBlanco;
+        flex-wrap: wrap;
+        text-decoration: none;
+    }
+    
+    .logo{
+        font-family: 'Playfair Display', serif;
+        font-size: 50px;
+        font-weight: 700;
+        padding:20px;
+        text-decoration: none;
+        color: $colorBlanco;
+    
+        &:hover{
+            transform: scale(1.1);
+            color: $colorBlanco;
+        }
+    }
+}
+
+
+
+
+
+.styleLinks:hover{
+    transform: scale(1.1);
+    color: $colorBlanco; 
+}
+
+.desplegable{
+    background-color: $colorPrinc;
+    border: $colorPrinc;
+    color: $colorBlanco;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $colorDecOsc;
+    padding: 10px;
+    vertical-align: middle;
+
+}
+
+footer div p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    padding: 5px;
+    margin: auto;
+}
+
+footer ul{
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+    right: 10px;
+    top: 10px;
+    width: 25%;
+    flex-direction: row;
+
+}
+
+.iconos{
+    width: 50px;
+    &:hover{
+        transform: scale(1.1);
+        color: $colorBlanco;
+    }
+}
+
+

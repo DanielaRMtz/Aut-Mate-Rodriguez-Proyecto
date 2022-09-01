@@ -1,0 +1,56 @@
+//Variables
+@import "variables";
+
+//Partials
+@import "animaciones";
+@import "generales";
+@import "indexstyle";
+@import "medias";
+
+
+
+//Estilos de las páginas
+.titulo{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    padding-right: 12%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 50%;
+    margin-right: 15%;
+    font-size: 40px;
+    background-color: #004ad0;  
+    animation: slideinBottom 1s;
+}
+
+.contenido{
+    font-size: 40px;
+    background-color: #3665A4;  
+
+}
+
+.tutoriales{
+    padding: 10%;
+    animation: slideinRight 3s;
+
+}
+
+.bienvtutos{
+    margin-top: 200px;
+    font-size: 30px;
+    border-radius: 30px;
+    background-color: #3665A4; 
+    animation: slideinBottom 3s;
+}
+
+.tarjetas{
+    font-size: 10px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: #717e96; 
+}
+
+
