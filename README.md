@@ -6,3 +6,4 @@ adicionalmente en cada una de las páginas agregue una decsripción específica.
 Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave para poder encontrar mi sitio "EXCEL, PYTHON, GOOGLE APPS, AUTOMATIZAR, PROCESOS, REPETITIVOS, AUXILIAR, CURSOS",
 repetí el proceso para cada una de las páginas con las mismas keywords, pero adicionando una más de acuerdo con la finalidad de cada página, tales como INFORMACION, CONTACTO, PREGUNTAS o TUTORIALES.
 Encabezados: Utilicé el encabezado h1 para todos los logos de mi sitio y los encabezados h2 para los títulos de cada página que lo compone (Conócenos, Tutoriales, Proyectos Personalizados, Preguntas Frecuentes y Contacto)
+Títulos: Todas las páginas cuentan con su propio título que consiste en la marca seguida de la página específica. Ejemplo: AutóMate: Conócenos
