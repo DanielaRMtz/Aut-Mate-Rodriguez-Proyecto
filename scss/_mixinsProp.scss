@@ -1,0 +1,5 @@
+@mixin positBgColor($col,$row,$mainColor) {
+    grid-column: $col;
+    grid-row: $row;
+    background-color: $mainColor;    
+}

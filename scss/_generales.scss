@@ -21,7 +21,7 @@ body{
     
     .styleLinks{
         font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
+        font-size: map-get($tamanios, sm);
         color: $colorBlanco;
         flex-wrap: wrap;
         text-decoration: none;
@@ -29,9 +29,9 @@ body{
     
     .logo{
         font-family: 'Playfair Display', serif;
-        font-size: 50px;
+        font-size: map-get($tamanios, xl);
         font-weight: 700;
-        padding:20px;
+        padding:map-get($tamanios, sm);
         text-decoration: none;
         color: $colorBlanco;
     
@@ -63,14 +63,14 @@ footer{
     align-items: center;
     justify-content: space-between;
     background-color: $colorDecOsc;
-    padding: 10px;
+    padding: map-get($tamanios, sm);
     vertical-align: middle;
 
 }
 
 footer div p{
     font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
+    font-size: map-get($tamanios, xs);
     padding: 5px;
     margin: auto;
 }
@@ -80,15 +80,15 @@ footer ul{
     list-style-type: none;
     padding: 5px;
     margin: 0;
-    right: 10px;
-    top: 10px;
+    right: map-get($tamanios, sm);
+    top: map-get($tamanios, sm);
     width: 25%;
     flex-direction: row;
 
 }
 
 .iconos{
-    width: 50px;
+    width: map-get($tamanios, xl);
     &:hover{
         transform: scale(1.1);
         color: $colorBlanco;

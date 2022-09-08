@@ -1,6 +1,10 @@
 //Variables
 @import "variables";
 
+//Extends
+@import "extendProp";
+@import "mixinsProp";
+
 //Partials
 @import "animaciones";
 @import "generales";
@@ -9,25 +13,26 @@
 
 
 
+
 //Estilos de las páginas
 .titulo{
     margin-top: 150px;
     display: flex;
     flex-direction: row;
-    border-radius: 30px;
+    border-radius: map-get($tamanios, md);
     padding-right: 12%;
     padding-left: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
     margin-left: 50%;
     margin-right: 15%;
-    font-size: 40px;
+    font-size: map-get($tamanios, lg);
     background-color: #004ad0;  
     animation: slideinBottom 1s;
 }
 
 .contenido{
-    font-size: 40px;
+    font-size: map-get($tamanios, lg);
     background-color: #3665A4;  
 
 }
@@ -39,17 +44,19 @@
 }
 
 .bienvtutos{
-    margin-top: 200px;
-    font-size: 30px;
-    border-radius: 30px;
+    @extend %titulos;
     background-color: #3665A4; 
-    animation: slideinBottom 3s;
+}
+
+.bienvcontac{
+    @extend .bienvtutos;
+    background-color: #717e96;
 }
 
 .tarjetas{
-    font-size: 10px;
-    margin-bottom: 20px;
-    border-radius: 30px;
+    font-size: map-get($tamanios, xs);
+    margin-bottom: map-get($tamanios, sm);
+    border-radius: map-get($tamanios, md);
     background-color: #717e96; 
 }
 

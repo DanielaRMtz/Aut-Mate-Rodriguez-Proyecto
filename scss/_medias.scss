@@ -44,7 +44,7 @@
     #indLet5{
         grid-column: 2/11;
         grid-row: 6/8;
-        margin-bottom: 50px;
+        margin-bottom: map-get($tamanios, xl);
     }
 
     #letCono{
@@ -54,7 +54,7 @@
     #indLet6{
         grid-column: 2/11;
         grid-row: 8/10;
-        margin-bottom: 50px;
+        margin-bottom: map-get($tamanios, xl);
     }
 
     #letTuto{
@@ -64,7 +64,7 @@
     #indLet7{
         grid-column: 2/11;
         grid-row: 10/12;
-        margin-bottom: 50px;
+        margin-bottom: map-get($tamanios, xl);
     }
 
     #letProy{
@@ -77,19 +77,19 @@
         margin-top: 150px;
         display: flex;
         flex-direction: row;
-        border-radius: 30px;
+        border-radius: map-get($tamanios, md);
         padding-right: 12%;
         padding-left: 5%;
         padding-top: 2%;
         padding-bottom: 2%;
         margin-left: 50%;
         margin-right: 15%;
-        font-size: 40px;
+        font-size: map-get($tamanios, lg);
         background-color: $colorDecOsc;  
     }
     
     .contenido{
-        font-size: 40px;
+        font-size: map-get($tamanios, lg);
         background-color: #3665A4;  
     
     }
@@ -101,15 +101,15 @@
     
     .bienvtutos{
         margin-top: 200px;
-        font-size: 30px;
-        border-radius: 30px;
+        font-size: map-get($tamanios, md);
+        border-radius: map-get($tamanios, md);
         background-color: #3665A4; 
     }
     
     .tarjetas{
-        font-size: 10px;
-        margin-bottom: 20px;
-        border-radius: 30px;
+        font-size: map-get($tamanios, xs);
+        margin-bottom: map-get($tamanios, sm);
+        border-radius: map-get($tamanios, md);
         background-color: #717e96; 
     }
 
