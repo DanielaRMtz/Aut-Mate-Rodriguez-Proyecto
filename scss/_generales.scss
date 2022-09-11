@@ -16,7 +16,6 @@ body{
 
     .estiloHeader{
         background-color: $colorPrinc;
-        animation: slideinLeft 3s;
     }
     
     .styleLinks{
@@ -25,6 +24,12 @@ body{
         color: $colorBlanco;
         flex-wrap: wrap;
         text-decoration: none;
+        animation: slideinLeft 3s;
+
+        &:hover{
+            transform: scale(1.1);
+            color: $colorBlanco; 
+        }
     }
     
     .logo{
@@ -34,6 +39,7 @@ body{
         padding:map-get($tamanios, sm);
         text-decoration: none;
         color: $colorBlanco;
+        animation: slideinLeft 3s;
     
         &:hover{
             transform: scale(1.1);
@@ -42,14 +48,6 @@ body{
     }
 }
 
-
-
-
-
-.styleLinks:hover{
-    transform: scale(1.1);
-    color: $colorBlanco; 
-}
 
 .desplegable{
     background-color: $colorPrinc;
