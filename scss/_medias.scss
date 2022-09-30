@@ -86,21 +86,8 @@
         margin-bottom: map-get($tamanios , sm);
     }
     
-
-    /*Estilos Página Conócenos*/
     .titulo{
-        margin-top: 150px;
-        display: flex;
-        flex-direction: row;
-        border-radius: map-get($tamanios, md);
-        padding-right: 12%;
-        padding-left: 5%;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        margin-left: 50%;
-        margin-right: 15%;
-        font-size: map-get($tamanios, lg);
-        background-color: $colorDecOsc;  
+        background-color: $colorPrinc;
     }
     
     .contenido{
@@ -161,13 +148,5 @@
         display: none;
         
     }
-    
-    
-    
-    
-    
-
-
-
 
 }
