@@ -64,7 +64,6 @@ body {
 }
 body .estiloHeader {
   background-color: #0a1f50;
-  animation: slideinLeft 3s;
 }
 body .styleLinks {
   font-family: "Montserrat", sans-serif;
@@ -72,6 +71,11 @@ body .styleLinks {
   color: #ffffff;
   flex-wrap: wrap;
   text-decoration: none;
+  animation: slideinLeft 3s;
+}
+body .styleLinks:hover {
+  transform: scale(1.1);
+  color: #ffffff;
 }
 body .logo {
   font-family: "Playfair Display", serif;
@@ -80,13 +84,9 @@ body .logo {
   padding: 20px;
   text-decoration: none;
   color: #ffffff;
+  animation: slideinLeft 3s;
 }
 body .logo:hover {
-  transform: scale(1.1);
-  color: #ffffff;
-}
-
-.styleLinks:hover {
   transform: scale(1.1);
   color: #ffffff;
 }
@@ -102,7 +102,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #004ad0;
+  background-color: #12229D;
   padding: 20px;
   vertical-align: middle;
 }
@@ -144,8 +144,8 @@ footer ul {
 .decLetLft {
   grid-column: 2/span 4;
   grid-row: 1;
-  background-color: #004ad0;
-  border: #004ad0;
+  background-color: #12229D;
+  border: #12229D;
   margin-top: 50px;
   height: 100%;
   transform: skew(0deg, 6deg);
@@ -154,8 +154,8 @@ footer ul {
 .decLetRgt {
   grid-column: 6/span 4;
   grid-row: 1;
-  background-color: #004ad0;
-  border: #004ad0;
+  background-color: #12229D;
+  border: #12229D;
   margin-top: 50px;
   height: 100%;
   transform: skew(0deg, -6deg);
@@ -166,13 +166,14 @@ footer ul {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
   color: #ffffff;
+  vertical-align: middle;
 }
 
 #indLet1 {
   flex-wrap: wrap;
   grid-column: 2/span 8;
   grid-row: 1;
-  background-color: #004ad0;
+  background-color: #12229D;
   padding-right: 25%;
   padding-left: 5%;
   padding-top: 9%;
@@ -225,7 +226,7 @@ footer ul {
 #indLet5 {
   grid-column: 2/span 7;
   grid-row: 6;
-  background-color: #004ad0;
+  background-color: #12229D;
   padding: 5%;
   font-size: 20px;
   border-radius: 20px;
@@ -236,7 +237,7 @@ footer ul {
 #indLet6 {
   grid-column: 4/span 7;
   grid-row: 7;
-  background-color: #004ad0;
+  background-color: #12229D;
   padding: 5%;
   font-size: 20px;
   border-radius: 20px;
@@ -247,7 +248,7 @@ footer ul {
 #indLet7 {
   grid-column: 2/span 7;
   grid-row: 8;
-  background-color: #004ad0;
+  background-color: #12229D;
   padding: 5%;
   font-size: 20px;
   border-radius: 20px;
@@ -259,9 +260,9 @@ footer ul {
   grid-column: 8/span 3;
   grid-row: 6;
   background-color: #03989E;
-  padding: 5%;
-  font-size: 40px;
-  border-radius: 40px;
+  padding: 6%;
+  font-size: 30px;
+  border-radius: 20px;
   height: 80px;
   margin: auto;
   text-align: center;
@@ -272,8 +273,8 @@ footer ul {
   grid-row: 7;
   background-color: #03989E;
   padding: 5%;
-  font-size: 40px;
-  border-radius: 40px;
+  font-size: 30px;
+  border-radius: 20px;
   height: 80px;
   margin: auto;
   text-align: center;
@@ -284,8 +285,8 @@ footer ul {
   grid-row: 8;
   background-color: #03989E;
   padding: 5%;
-  font-size: 40px;
-  border-radius: 40px;
+  font-size: 30px;
+  border-radius: 20px;
   height: 80px;
   margin: auto;
   text-align: center;
@@ -315,6 +316,66 @@ footer ul {
   grid-column: 6;
   grid-row: 5;
   background-color: #03989E;
+}
+
+.titulosSec {
+  grid-column: 8/span 3;
+  grid-row: 3;
+  background-color: #0a1f50;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  height: 70px;
+}
+
+.franjas {
+  grid-column: 1/span 6;
+  grid-row: 2/span 3;
+  background-color: #777587;
+}
+
+.conoImg1 {
+  grid-column: 2/span 4;
+  grid-row: 1/span 6;
+  background-color: #0a1f50;
+  width: 100%;
+  margin: 30px;
+}
+
+#conLet1 {
+  grid-column: 8/span 4;
+  grid-row: 5/span 7;
+  background-color: #21426d;
+  padding: 5%;
+  border-radius: 20px;
+  margin: 30px;
+}
+
+#conLet2 {
+  grid-column: 1/span 7;
+  grid-row: 7/span 5;
+  background-color: #12229D;
+  padding: 5%;
+  border-radius: 20px;
+  margin: 30px;
+}
+
+#conLet3 {
+  grid-column: 2/span 5;
+  grid-row: 12/span 4;
+  background-color: #0a1f50;
+  padding: 5%;
+  border-radius: 20px;
+  margin: 30px;
+  border-style: dashed;
+  border-width: 5px;
+}
+
+.conoImg2 {
+  grid-column: 8/span 3;
+  grid-row: 13/span 2;
+  background-color: #0a1f50;
+  width: 100%;
 }
 
 @media screen and (max-width: 992px) {
@@ -351,27 +412,41 @@ footer ul {
   #indLet5 {
     grid-column: 2/11;
     grid-row: 6/8;
+    padding: 5%;
     margin-bottom: 50px;
+    padding-bottom: 50px;
   }
   #letCono {
+    grid-column: 2/11;
     grid-row: 7;
+    padding: 2%;
+    vertical-align: middle;
   }
   #indLet6 {
     grid-column: 2/11;
     grid-row: 8/10;
+    padding: 5%;
     margin-bottom: 50px;
+    padding-bottom: 50px;
   }
   #letTuto {
+    grid-column: 2/11;
     grid-row: 9;
+    padding: 2%;
+    vertical-align: middle;
   }
   #indLet7 {
     grid-column: 2/11;
     grid-row: 10/12;
+    padding: 5%;
     margin-bottom: 50px;
+    padding-bottom: 50px;
   }
   #letProy {
+    grid-column: 2/11;
     grid-row: 11;
-    margin-bottom: 15px;
+    padding: 2%;
+    margin-bottom: 20px;
   }
   /*Estilos Página Conócenos*/
   .titulo {
@@ -386,7 +461,7 @@ footer ul {
     margin-left: 50%;
     margin-right: 15%;
     font-size: 40px;
-    background-color: #004ad0;
+    background-color: #12229D;
   }
   .contenido {
     font-size: 40px;
@@ -407,21 +482,51 @@ footer ul {
     border-radius: 30px;
     background-color: #717e96;
   }
+  .titulosSec {
+    grid-column: 2/span 9;
+    grid-row: 1;
+    background-color: #0a1f50;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    height: 70px;
+  }
+  .franjas {
+    display: none;
+  }
+  .conoImg1 {
+    display: none;
+  }
+  #conLet1 {
+    grid-column: 2/span 9;
+    grid-row: 2;
+    background-color: #21426d;
+  }
+  #conLet2 {
+    grid-column: 2/span 9;
+    grid-row: 3;
+    background-color: #12229D;
+  }
+  #conLet3 {
+    grid-column: 2/span 9;
+    grid-row: 4;
+    background-color: #0a1f50;
+    margin-bottom: 50px;
+  }
+  .conoImg2 {
+    display: none;
+  }
 }
 .titulo {
   margin-top: 150px;
   display: flex;
   flex-direction: row;
   border-radius: 30px;
-  padding-right: 12%;
-  padding-left: 5%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  margin-left: 50%;
-  margin-right: 15%;
+  padding: 2%;
   font-size: 40px;
   background-color: #004ad0;
-  animation: slideinBottom 1s;
+  justify-content: center;
+  animation: slideinRight 1s;
 }
 
 .contenido {

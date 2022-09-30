@@ -9,7 +9,9 @@
 @import "animaciones";
 @import "generales";
 @import "indexstyle";
+@import "conostyle";
 @import "medias";
+
 
 
 
@@ -20,15 +22,11 @@
     display: flex;
     flex-direction: row;
     border-radius: map-get($tamanios, md);
-    padding-right: 12%;
-    padding-left: 5%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin-left: 50%;
-    margin-right: 15%;
+    padding: 2%;
     font-size: map-get($tamanios, lg);
     background-color: #004ad0;  
-    animation: slideinBottom 1s;
+    justify-content: center;
+    animation: slideinRight 1s;
 }
 
 .contenido{

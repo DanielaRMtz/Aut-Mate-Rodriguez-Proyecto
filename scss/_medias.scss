@@ -44,33 +44,48 @@
     #indLet5{
         grid-column: 2/11;
         grid-row: 6/8;
+        padding: 5%;
         margin-bottom: map-get($tamanios, xl);
+        padding-bottom: map-get($tamanios, xl);
     }
 
     #letCono{
+        grid-column: 2/11;
         grid-row: 7;
+        padding: 2%;
+        vertical-align: middle;
     }
 
     #indLet6{
         grid-column: 2/11;
         grid-row: 8/10;
+        padding: 5%;
         margin-bottom: map-get($tamanios, xl);
+        padding-bottom: map-get($tamanios, xl);
     }
 
     #letTuto{
+        grid-column: 2/11;
         grid-row: 9;
+        padding: 2%;
+        vertical-align: middle;
     }
 
     #indLet7{
         grid-column: 2/11;
         grid-row: 10/12;
+        padding: 5%;
         margin-bottom: map-get($tamanios, xl);
+        padding-bottom: map-get($tamanios, xl);
     }
 
     #letProy{
+        grid-column: 2/11;
         grid-row: 11;
-        margin-bottom: 15px;
+        padding: 2%;
+        margin-bottom: map-get($tamanios , sm);
     }
+    
 
     /*Estilos Página Conócenos*/
     .titulo{
@@ -112,6 +127,45 @@
         border-radius: map-get($tamanios, md);
         background-color: #717e96; 
     }
+
+    .titulosSec{
+        @include positBgColor($col: 2/span 9 , $row: 1,$mainColor: $colorPrinc);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 50px;
+        font-weight: 700;
+        height: 70px;
+    }
+    
+    .franjas{
+        display: none;
+    }
+    
+    .conoImg1{
+        display: none;
+    }
+    
+    #conLet1{
+        @include positBgColor($col: 2/span 9 ,$row: 2,$mainColor: $colorDecMedio);
+    }
+    
+    #conLet2{
+        @include positBgColor($col: 2/span 9,$row: 3,$mainColor: $colorDecOsc);
+    }
+    
+    #conLet3{
+        @include positBgColor($col: 2/span 9,$row: 4,$mainColor: $colorPrinc);
+        margin-bottom: 50px;
+    }
+    
+    .conoImg2{
+        display: none;
+        
+    }
+    
+    
+    
+    
+    
 
 
 

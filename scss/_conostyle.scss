@@ -1,0 +1,49 @@
+.titulosSec{
+    @include positBgColor($col: 8/span 3, $row: 3,$mainColor: $colorPrinc);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    height: 70px;
+}
+
+.franjas{
+    @include positBgColor($col: 1/span 6,$row: 2/span 3,$mainColor: $grisDecorat);
+}
+
+.conoImg1{
+    @include positBgColor($col: 2/span 4,$row: 1/span 6,$mainColor: $colorPrinc);
+    width: 100%;
+    margin: 30px;
+}
+
+#conLet1{
+    @include positBgColor($col: 8/span 4,$row: 5/span 7,$mainColor: $colorDecMedio);
+    padding: 5%;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+#conLet2{
+    @include positBgColor($col: 1/span 7,$row: 7/span 5,$mainColor: $colorDecOsc);
+    padding: 5%;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+#conLet3{
+    @include positBgColor($col: 2/span 5,$row: 12/span 4,$mainColor: $colorPrinc);
+    padding: 5%;
+    border-radius: 20px;
+    margin: 30px;
+    border-style: dashed;
+    border-width: 5px;
+}
+
+.conoImg2{
+    @include positBgColor($col: 8/span 3,$row: 13/span 2,$mainColor: $colorPrinc);
+    width: 100%;
+}
+
+
+
+

@@ -29,6 +29,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: map-get($tamanios, md);
     color: $colorBlanco;
+    vertical-align: middle;
 }
 
 #indLet1{
@@ -108,9 +109,9 @@
 
 #letCono{
     @include positBgColor($col: 8/span 3,$row: 6,$mainColor: #03989E);
-    padding: 5%;
-    font-size: map-get($tamanios, lg);
-    border-radius: map-get($tamanios, lg);
+    padding: 6%;
+    font-size: map-get($tamanios, md);
+    border-radius: map-get($tamanios, sm);
     height: 80px;
     margin: auto;
     text-align: center;
@@ -119,8 +120,8 @@
 #letTuto{
     @include positBgColor($col: 2/span 3,$row: 7,$mainColor: #03989E);
     padding: 5%;
-    font-size: map-get($tamanios, lg);
-    border-radius: map-get($tamanios, lg);
+    font-size: map-get($tamanios, md);
+    border-radius: map-get($tamanios, sm);
     height: 80px;
     margin: auto;
     text-align: center;
@@ -129,8 +130,8 @@
 #letProy{
     @include positBgColor($col: 8/span 3,$row: 8,$mainColor: #03989E);
     padding: 5%;
-    font-size: map-get($tamanios, lg);
-    border-radius: map-get($tamanios, lg);
+    font-size: map-get($tamanios, md);
+    border-radius: map-get($tamanios, sm);
     height: 80px;
     margin: auto;
     text-align: center;
